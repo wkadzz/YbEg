@@ -14,11 +14,16 @@
             android:id="@+id/rg"
             android:layout_width="match_parent"
             android:layout_height="@dimen/main_Rodio_height"
+
             android:layout_alignParentBottom="true"
             android:orientation="horizontal">
             <RadioButton
-                android:drawableTop="@mipmap/bt_ico1a"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/back"
+                android:paddingBottom="3dp"
+                android:drawableBottom="@drawable/showye"
                 android:id="@+id/rb_shouye"
+
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:gravity="center_horizontal"
@@ -28,7 +33,9 @@
 
             <RadioButton
                 android:id="@+id/rb_fenlei"
-                android:drawableTop="@mipmap/bt_ico2a"
+                android:paddingBottom="3dp"
+                android:background="@drawable/back"
+                android:drawableBottom="@drawable/fenlei"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:gravity="center_horizontal"
@@ -38,8 +45,10 @@
 
             <RadioButton
                 android:id="@+id/rb_gouwuche"
+                android:paddingBottom="3dp"
                 android:layout_width="0dp"
-                android:drawableTop="@mipmap/bt_ico3a"
+                android:background="@drawable/back"
+                android:drawableBottom="@drawable/gouwuche"
                 android:layout_height="match_parent"
                 android:gravity="center_horizontal"
                 android:layout_weight="1"
@@ -47,7 +56,9 @@
 
             <RadioButton
                 android:id="@+id/rb_wode"
-                android:drawableTop="@mipmap/bt_ico4a"
+                android:drawableBottom="@drawable/wode"
+                android:paddingBottom="3dp"
+                android:background="@drawable/back"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:gravity="center_horizontal"
@@ -55,10 +66,13 @@
                 android:button="@null"/>
             <RadioButton
                 android:id="@+id/rb_gengduo"
-                android:drawableTop="@mipmap/bt_ico5a"
+                android:background="@drawable/back"
+                android:drawableBottom="@drawable/gengduo"
                 android:layout_width="0dp"
+                android:paddingBottom="3dp"
                 android:layout_height="match_parent"
                 android:gravity="center_horizontal"
+                android:layout_marginRight="10dp"
                 android:layout_weight="1"
                 android:button="@null"/>
 
