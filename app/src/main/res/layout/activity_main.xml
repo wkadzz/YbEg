@@ -4,9 +4,11 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="com.example.wk.ybeg.MainActivity">
+
         <FrameLayout
             android:id="@+id/fl_discover"
             android:layout_width="match_parent"
+            android:layout_marginBottom="@dimen/main_Rodio_height"
             android:layout_height="match_parent"/>
 
         <RadioGroup
@@ -75,6 +77,23 @@
                 android:layout_marginRight="10dp"
                 android:layout_weight="1"
                 android:button="@null"/>
+            <RadioButton
+                android:id="@+id/rb_goods"
+                android:layout_width="0dp"
+                android:visibility="gone"
+                android:layout_height="match_parent"/>
+
+            <RadioButton
+                android:id="@+id/rb_pinpai"
+                android:layout_width="0dp"
+                android:visibility="gone"
+                android:layout_height="match_parent"/>
+            <RadioButton
+                android:id="@+id/rb_bangzhu"
+                android:layout_width="0dp"
+                android:visibility="gone"
+                android:layout_height="match_parent"/>
+
 
         </RadioGroup>
 
